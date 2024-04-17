@@ -5,8 +5,10 @@
 
 fn main(){
 
-    first()
-  
+    first();
+   second();
+    third();
+    fourth();
 }
 // Loop
 fn first(){
@@ -19,4 +21,33 @@ fn first(){
         break ;
     }
 }
+}
+// While Loop
+fn second(){
+    let mut y =1;
+    
+    while y < 10 {
+        println!("Value of y is {} ",y) ;
+        y+=1;
+    }
+    println!("\nWhile loop completed")
+}
+
+fn fourth(){
+    let a=[10,20,30,40,50,60,160,170,180];
+
+    let mut index =0;
+
+    while index < 8 {
+    println! ("Element at Index {} is {}",index,a[index]);
+    index +=1;
+    }
+}
+    
+//For Loop
+fn third(){
+    for num in 1..11{
+       println!("Value of num is {}",num);
+    }
+    println!("\nFor loop completed")
 }

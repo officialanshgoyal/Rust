@@ -1,0 +1,8 @@
+# ignoring the exe files and .pdb files also 
+
+
+# Ignore executable files
+*.exe
+
+# Ignore program database files
+*.pdb
